@@ -39,7 +39,7 @@ body::before { content:''; position:fixed; inset:0; background:radial-gradient(e
 /* Buttons */
 .btn { padding:8px 18px; border:1px solid var(--border); background:var(--bg-card); color:var(--text); font-family:var(--font-display); font-size:0.85rem; font-weight:500; border-radius:var(--radius-sm); cursor:pointer; transition:all 0.2s; }
 .btn:hover { background:var(--bg-card-hover); border-color:var(--text-muted); }
-.btn-accent { background:var(--accent); border-color:var(--accent); color:#fff; font-weight:600; }
+.btn-accent { background:var(--accent); border-color:red; color:#fff; font-weight:600; }
 .btn-accent:hover { background:#e55a1a; border-color:#e55a1a; }
 
 /* Auth */
